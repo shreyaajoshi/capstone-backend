@@ -1,5 +1,5 @@
 FROM node:8
-RUN sudo usermod -aG docker jenkins
+RUN usermod -aG docker jenkins
 # Create app directory
 WORKDIR /usr/src/app
 
